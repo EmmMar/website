@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');  */
+/* font-family: 'Sedgwick Ave', cursive; */
+
+* {
+    /* background-color: chocolate; */
+    box-sizing: border-box; 
+    padding: 5px 5px 10px 5px;
+} 
+/* This is how to target ALL of your HTML code */
+
+body {
+    background-color: rgb(155, 148, 143);
+    margin: 15px;
+}
+
+h1 {
+    color:rgb(75, 10, 10);
+    font-size: 50px;
+}
+/* This is how to target an element within our HTML */
+h4 {
+    color:rgb(75, 10, 10);
+    font-size: 30px;
+}
+.welcome {
+    background-color: rgb(91, 156, 142);
+}
+/* This is how to target a class */
+
+/* .large {
+    font-size: 30px;
+}
+
+.blue {
+    background-color: darksalmon;
+} */
+
+#navbar {
+    background-color: rgb(189, 218, 218);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Changes the navbar colour and centers and spaces it */
+
+#navbar a {
+    color:rgb(48, 35, 11);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/* This would change the navbar text to whatever colour you choose
+text decoration gets rid of the lines underneath the text. customise 
+the font in the navbar */
+
+#navbar a:hover {
+    color:rgb(192, 184, 152);
+}
+
+/* when hovering over link will change colour */
+
+.center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.font {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image2 {
+    display: flex;
+    justify-content: space-evenly;
+}
